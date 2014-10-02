@@ -2,14 +2,15 @@
 
 public class week3Question1 {
 	public static void main(String[] args) {
-		boolean a = true;
-		boolean b = false;
-		if (a && !b)
-		{
-			System.out.println("TRUE");
+		boolean output = true;
+		int a = -1;
+		int b = 1;
+		if ((a < 0) && (b > 0)) {
+			System.out.println(output);
 		}
 		else {
-			System.out.println("FALSE");
+			output = false;
+			System.out.println(output);
 		}
 	}
 }
